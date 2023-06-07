@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 241, 245);
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* {} */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background-gradient {
+  position: absolute;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 0 0 195px 0;
+  width: 195px;
+  height: 400px;
+  left: 0;
+  top: 0;
+}
+
+.app {
+  margin-top: 70px;
+  width: 290px;
+  height: 590px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 30px 50px 5px rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.inapp {
+  width: 265px;
+  height: 565px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+}
+.notch {
+  width: 155px;
+  height: 20px;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
+}
+
+.heading {
+  color: white;
+  border-radius: 25px 25px 5px 5px;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.heading-txt {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+  align-items: center;
+}
+
+img.avatar {
+  width: 30px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+  border-color: white;
+  border: 2px solid;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30px;
+}
+.full-name {
+  font-size: 13px;
+}
+.dots,
+.arrow {
+  height: 15px;
+}
+
+.dots {
+  margin: 0 0 0 82px;
+}
+.arrow {
+  margin: 0 10px 0 10px;
+}
+span {
+  font-size: 8px;
+  color: rgb(255, 255, 255, 0.5);
+}
+/* messages start here */
+
+.message-one,
+.message-two,
+.message-five {
+  color: hsl(276, 55%, 52%);
+  font-size: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: hsl(0, 6%, 86%);
+  width: 140px;
+  border-radius: 15px 15px 15px 5px;
+}
+.message-three,
+.message-four {
+  color: hsl(0, 0%, 5%);
+  font-size: 10px;
+  margin: 5px;
+  padding: 10px;
+  background-color: hsl(200, 18%, 97%);
+  border-radius: 15px 15px 5px 15px;
+  width: 130px;
+  box-shadow: 0px 10px 25px -15px rgba(0, 0, 0, 0.1);
+}
+
+.message-four {
+  width: 100px;
+  box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.2);
+  /* z-index: 5; */
+}
+
+.right-messages {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.message-six,
+.message-seven {
+  display: flex;
+  align-items: center;
+  color: hsl(0, 0%, 100%, 0.5);
+  font-size: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-image: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  width: 160px;
+  border-radius: 15px 15px 15px 5px;
+}
+
+.prc-one,
+.prc-two {
+  margin: 0 0 0 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dog-one,
+.dog-two,
+.dog-three {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.dogs {
+  margin: 0 10px 0 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.type {
+  width: 225px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-two {
+  width: 10px;
+  height: 15px;
+  transform: rotate(180deg);
+}
+
+/* This is the end of the main section-one */
+
+.text {
+  margin: 30px 0 10px 0;
+  width: 300px;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 40px;
+  color: hsl(271, 36%, 24%);
+  margin: 25px 0;
+}
+p {
+  color: hsl(270, 7%, 64%);
+}
+
+/* This is the responsive section */
+
+@media all and (min-width: 1440px) {
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+    padding-right: 100px;
+  }
+  .background-gradient {
+    border-radius: 0 0 270px 245px;
+    width: 520px;
+    height: 650px;
+    left: -60px;
+    top: 0;
+  }
+  .app {
+    margin-top: 0;
+  }
+  .text {
+    text-align: left;
+    width: 450px;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
